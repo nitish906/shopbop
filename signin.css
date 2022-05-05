@@ -35,11 +35,13 @@ form input{
     border: none;
     border: 1px solid gray;
     outline: none;
+    box-sizing: border-box;
 }
 input[type="submit"]{
     width: 100%;
-    margin-top: 20px;
+    margin: 20px auto 10px ;
     height:24px;
+    padding: 3px;
     font-family: Arial,sans-serif;
     font-size: 11px;
     background-color: #ee4a1b;
@@ -75,6 +77,9 @@ p a{
 
 
 }
+.checkbox span{
+    font-size: 1px;
+}
 #create{
     width: 88%;
     margin-left: 19px;
@@ -88,6 +93,7 @@ p a{
     font-size: 08px;
     margin-bottom: -15px;
 }
+
 
 
 

@@ -40,6 +40,7 @@ form input{
     border: none;
     border: 1px solid gray;
     outline: none;
+    box-sizing: border-box;
 }
 input[type="submit"]{
     width: 100%;
