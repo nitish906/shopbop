@@ -24,7 +24,7 @@ if(form.name.value == "" || form.email.value == "" || form.password.value == "" 
 dataSave.push(userDataArr)
 
 localStorage.setItem("userSaved",JSON.stringify(dataSave))
-
+window.location.href= "signin.html" //automatically goes to sign in page
 alert("Account successfully created.")
 }
    else{
