@@ -62,8 +62,8 @@
     height: max-content;
     width: max-content;
     /* border: 1px solid teal; */
-    font-family: "GT-America-Standard","Helvetica Neue",Helvetica,sans-serif";
-    font-weight: 100;
+    /* font-family: "GT-America-Standard","Helvetica Neue",Helvetica,sans-serif */
+    font-weight : 100;
     margin-top: 20px;
  } 
  #ser{

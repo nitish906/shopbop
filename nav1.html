@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/203d93de14.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="nav1.css">
 </head>
 <body>
     <div class="top">
        <div class="r1">
            <select name="" id="location">
-               <img src="" alt="">
-               <option value="IN">IN</option>
+            
+               <option value="IN" >IN</option>
                <option value="India">India</option>
                <option value="United States">United States(US)</option>
                <option value="Canada">Canada(CA)</option>
@@ -62,18 +64,54 @@
         " alt="">
     </div>
     <div class="navbar">
-        <div>WHAT'S NEW</div>
-        <div>OUR FAVORITES</div>
-        <div>DESIGNERS</div>
-        <div>CLOTHING</div>
-        <div>ACTIVE</div>
-        <div>SHOES</div>
-        <div>BAGS</div>
-        <div>ACCESSORIES</div>
-        <div>MEN</div>
-        <div>SALE</div>
+
+        <ul class="nav justify-content-center">
+        <div>
+            <li id="whatsNew" class="nav-item">
+              <a  class="nav-link " aria-current="page" href="/whatsnew">WHAT'S NEW</a>
+            </li>
+            <div id="linksHovered">
+
+            </div>
+            
+        </div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">OUR FAVORITES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DESIGNERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" >CLOTHING</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="#" >ACTIVE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >SHOES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >BAGS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >ACCESSORIES</a>
+              </li>
+              <li id ="menS" class="nav-item">
+                <a class="nav-link " href="#" >MEN</a>
+                <div id="mensHovered">
+
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#" >SALE</a>
+              </li>
+          </ul>
+
+
+       
+       
         <div id="ser">
-            <img src="data:image/jpeg;base64,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" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/></svg>
         </div>
     </div>
     
@@ -135,12 +173,16 @@
            
      </div> 
      <div class="rail">
-    
+
+         <div id="backgroundPoster">
+            <img src="https://th.bing.com/th/id/R.7f61d72c7783ad2de96df01dd5c3ce61?rik=38ytkrm34fWw5g&riu=http%3a%2f%2fwallpaper-house.com%2fdata%2fout%2f6%2fwallpaper2you_93661.jpg&ehk=414xHo0IH%2biwQE0EqiubWkztrJXcWXEPoqV%2fbonaqjc%3d&risl=&pid=ImgRaw&r=0" alt="">
+         </div>
+       
          <div id="d1">
              <h4>SPOTLIGHT ON</h4>
              <H1>RAILS</H1>
              <P>From relaxed shorts to casual-cool tees:meet the california brand's off-duty staples.</P>
-            <button>Shop Now</button>
+            <button><a href="./mensRail.html">Shop Now</a></button>
             <br>
           
            
@@ -242,4 +284,10 @@
       </div>
   </div> 
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
+<script src="./nav.js">
+//  var innerHovered = document.getElementById("innerHovered")
+    
+
+</script>
