@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(250, 250, 244);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.signup-box{
+    width: 348px;
+    height: 550px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 3px;
+
+}
+h1{
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family: Arial,sans-serif;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 4px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+}
+h4{
+    text-align: center;
+
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: Arial,sans-serif;
+}
+form input{
+    width: 100%;
+    padding: 3px;
+    border: none;
+    border: 1px solid gray;
+    outline: none;
+}
+input[type="submit"]{
+    width: 100%;
+    margin-top: 20px;
+    height:24px;
+    font-family: Arial,sans-serif;
+    font-size: 11px;
+    background-color: #ee4a1b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#logoimg{
+width: 200px;
+height: 50px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px; 
+}
+p a{
+     text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.para-2{
+    margin-top: -10px;
+    font-size: 13px
+}
+.para-2 a{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+#logoimg{
+    width: 200px;
+    height: 50px;
+    margin-left: 60px;
+    }
+    #helpSection p{
+        font-size: 08px;
+        margin-bottom: -15px;
+    }
+    
