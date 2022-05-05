@@ -96,11 +96,15 @@
               <li class="nav-item">
                 <a class="nav-link " href="#" >ACCESSORIES</a>
               </li>
-              <li id ="menS" class="nav-item">
-                <a class="nav-link " href="#" >MEN</a>
-                <div id="mensHovered">
-
-                </div>
+              <div>
+                <li id ="menS" class="nav-item">
+                    <a class="nav-link " aria-current="page" href="/MEN" >MEN</a>
+                    
+                    <div id="mensHovered">
+    
+                    </div>
+              </div>
+              
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="#" >SALE</a>
@@ -289,5 +293,30 @@
 <script src="./nav.js">
 //  var innerHovered = document.getElementById("innerHovered")
     
+var mensHovered= document.getElementById("mensHovered");
+    var MEN = document.getElementById("menS")
+    MEN.addEventListener("mouseleave",function(){
+       
+        mensHovered.innerHTML= null;
+    })
+    MEN.addEventListener("mouseenter",function(){
+        mensHovered.innerHTML=`
+        <div id="innerHovered">
+           <div id="box">
+           <div>
+           
 
+
+           </div>
+
+           </div>
+           
+
+
+        </div>
+    `
+
+
+
+    })
 </script>

@@ -104,6 +104,17 @@
     padding: 20px;
 
 }
+#mensHovered{
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+    border-top: 2px solid red;
+}
+#mensHovered>div{
+    height: 300px;
+    width: 90%;
+    border: 1px solid red;
+}
 #ser>img{
     height: 100%;
     width: 100%;
