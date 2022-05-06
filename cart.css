@@ -1,0 +1,50 @@
+.row {
+    height: 500px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    /* border-radius: 20px; */
+}
+.cartPage {
+    height: auto;
+    padding-bottom: -100px;
+}
+.footer {
+    height: 200px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    /* border-radius: 20px; */
+}
+
+.column {
+    height: 98%;
+    width: 19%;
+    /* border:1px solid gray; */
+    margin: auto;
+    border-radius: 20px;
+    /* display: flex; */
+    margin: 20px 0px;
+    margin-right: 2%;
+    /* box-shadow: 1px 1px 1px 1px gray; */
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    margin-top: -10px;
+}
+
+h1 {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    padding-bottom: -20px;
+    font-size: 12px;
+}
