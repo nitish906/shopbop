@@ -66,11 +66,17 @@
     font-weight : 100;
     margin-top: 20px;
  } 
+.nav-item>a{
+    color: black;
+}
+#navLinks{
+    color: black;
+}
  #ser{
-    height: 40px;
-    width: 40px;
-     border: 1px solid red; 
-    padding-bottom: -80px;
+    height: 30px;
+    width: 30px;
+     /* border: 1px solid red;  */
+    margin-top: 0px;
 } 
 #ser>img{
     height: 100%;
@@ -88,12 +94,12 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 hr{
-    width: 80%;
+    width: 100%;
 }
 #lef{
     height: 200px;
     width: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-left: 100px;
     line-height: 5px;
 }
@@ -103,7 +109,7 @@ hr{
 .rif{
     height: 250px;
     width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: -200px;
     display: grid;
@@ -111,7 +117,7 @@ hr{
     gap: 10px;
 }
 .rif>div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 250px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -127,32 +133,42 @@ hr{
     text-decoration: underline;
 }
 .rif>div>p{
-    border: 1px solid teal;
+    /* border: 1px solid teal; */
     margin-top: 30px;
     font-size: 13px;
     color: gray;
 }
 .fit{
-    height: 80px;
-    width: 80%;
-    border: 1px solid red;
+    height: 40px;
+    width: 40%;
+    /* border: 1px solid purple; */
+    border-radius: 20px;
     margin: auto;
+    
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: ;
+   
+}
+#clear{
+    color: black;
+    text-decoration: underline;
 }
 .bigp{
     height: auto;
     width: 80%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     gap: 15px;
 }
 #cart{
     /* border: 1px solid red; */
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    height: 450px;
+    height: auto;
     /* background-color:rgb(198, 195, 195); */
 
 

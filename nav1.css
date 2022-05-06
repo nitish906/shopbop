@@ -59,7 +59,7 @@
 .navbar{
     height: 50px;
     width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     margin: auto;
     display: flex;
@@ -89,7 +89,7 @@
     width: 30px;
     margin-top: 0px;
     
-     border: 1px solid red; 
+     /* border: 1px solid red;  */
     /* padding-bottom: -80px; */
 } 
 #linksHovered{
@@ -151,7 +151,7 @@ div>img{
 .late{
     height: 100px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 50px;
     /* display: grid;
@@ -176,7 +176,7 @@ div>img{
     margin-top: 20px;
     height: 400px;
     width: 90%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5,1fr);
@@ -185,7 +185,7 @@ div>img{
 }
 .spal>div{
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 10px;
     
 }
@@ -197,14 +197,14 @@ div>img{
 #mid{
     height: 80px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     line-height: 3px;
     text-align: center;
 }
 .rail{
     height: 500px;
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 40px;
     display: flex;
@@ -223,7 +223,7 @@ div>img{
 #d1{
     height: 450px;
     width: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 20px;
    margin-top: 20px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -246,7 +246,7 @@ div>img{
 #d2{
     height: 500px;
     width: 500px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
 }
 
@@ -257,12 +257,12 @@ div>img{
 #d3{
     height: 400px;
     width: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 #caan{
     height: 100px;
     width: 90%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     margin-top: 50px;
 }
@@ -275,7 +275,7 @@ div>img{
    
 }
 .bot{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     height: 450px;
     width: 90%;
     margin: auto;
@@ -285,7 +285,7 @@ div>img{
 }
 .bot>div{
     height: 450px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .bot>div>img{
     height: 75%;
@@ -311,6 +311,6 @@ div>img{
     height: 200px;
     /* border: 1px solid red; */
     line-height: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
