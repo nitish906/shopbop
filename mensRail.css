@@ -47,7 +47,7 @@
 .navbar{
     height: 50px;
     width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     margin: auto;
     display: flex;
@@ -167,7 +167,7 @@ hr{
 }
 #cart{
     /* border: 1px solid red; */
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
     height: auto;
     /* background-color:rgb(198, 195, 195); */
 

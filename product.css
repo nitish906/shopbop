@@ -47,7 +47,7 @@
 .navbar{
     height: 50px;
     width: 70%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 50px;
     margin: auto;
     display: flex;
@@ -66,15 +66,136 @@
     font-weight : 100;
     margin-top: 20px;
  } 
+ .nav-item>a{
+    color: black;
+}
+#navLinks{
+    color: black;
+}
  #ser{
-    height: 40px;
-    width: 40px;
-     border: 1px solid red; 
-    padding-bottom: -80px;
+    height: 30px;
+    width: 30px;
+     /* border: 1px solid red;  */
+    margin-top: 0px;
 } 
 #ser>img{
     height: 100%;
     width: 100%;
 }
+#line{
+    margin-left: 80px;
+    color: gray;
+}
+.prod{
+    height: autopx;
+    width: 70%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.prod>div{
+    /* border: 1px solid red; */
+    height: 580px;
+    
+}
 
+#lfpro>img{
+    height: 100%;
+    width: 100%;
+    
+}
+#rtdet{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+#rtdet>img{
+    border-radius: 70%;
+    height: 60px;
+    width: 60px;
+    border: 3px solid black;
+}   
+.size{
+    height: 40px;
+    width: 200px;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.size>div{
+    border: 1px solid black;
+    text-align: center;
+}
+#rtdet>button{
+    margin-top: 20px;
+    height: 50px;
+    width: 300px;
+    border: 1px solid red;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
+#rtdet>button>a{
+    text-decoration: none;
+    color: white;
+}
+.d{
+    height: 30px;
+    width: 300px;
+    border: 2px solid gray;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.d>div{
+    height: 30px;
+    border: 2px solid gray;
+}
+#PP>p{
+    margin-top: 10px;
+    line-height: 5px;
+}
+#rtdet>h6{
+    text-decoration: underline;
+}
+#botdetails{
+    height: 140px;
+    width: 60%;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+#revv{
+    height: 150px;
+    width: 60%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+#revv>button{
+    height: 40px;
+    width: 200px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+.bottom{
+    height: 200px;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.bottom>div{
+    height: 200px;
+    /* border: 1px solid red; */
+    line-height: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
