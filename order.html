@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    <script src="https://kit.fontawesome.com/10126c2929.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="one">
+            <h1>Shopbop</h1>
+            <div id="two">
+                <div id="three">
+                    <h2>Review-Order</h2>
+                    <form action="" id="nagraj">
+                        <a href="address.html"><i class="fas fa-plus-circle" id="pro"></i>  <input type="text" name="" id="nag1" placeholder="Add Shiping Address"></a>
+                        <br>
+                       <a href="gift.html"> <i class="fas fa-plus-circle" id="pro1"></i> <input type="text" name="" id="nag2" placeholder="Select Shipping and Gift Options"></a>
+                        <br>
+                        <a href="payment.html"><i class="fas fa-plus-circle" id="pro2"></i> <input type="text" name="" id="nag3" placeholder="Add Payment Method"></a>
+                        <br>
+                        <input type="submit" name="" id="nag4" value="Place Order">
+                        <p id="nag5">By placing your order, you agree to Shopbop.com’s<a href="#"> privacy notice </a> and <a href="#">condition of use</a></p>
+                    </form>
+                </div>
+                <div id="three">
+                    <!-- Second div -->
+                    <div id="three1">
+                        <h2>Order Details</h2>
+                            <div id="swt1">  
+                                <div><p>Products(1)</p></div>
+                                <div><p>Shipping & Handling</p></div>
+                                <br>
+                                <div>Total Before Tx</div>
+                                <hr>
+                                <div><b>Order Total</b></div>
+                            </div>
+                            <div id="swt2">
+                                <div><p>$118.00</p></div>
+                                <div><p>FREE</p></div>
+                                <br>
+                                <div><p>$118.00</p></div>
+                                <hr>
+                                <div><b>$118.00</b></div>
+                            </div>
+                    </div>
+                    <div id="three2">
+                        <img id="photo"src="./cart.jpeg" alt="">
+                        <p id="swt3"><b>In Your Bag</b> - 1 Items</p>
+                        <div>
+                            <div><img id="swt4" src="https://m.media-amazon.com/images/G/01/Shopbop/p/prod/products/rails/rails314911b018/rails314911b018_1648048514412_2-0._QL95_UX180_.jpg" alt=""></div>
+                        </div>
+                        <div id="swt5">
+                            <h3>RAILS</h3>
+                            <p>Fairfax Short Sleeve Shirt</p>
+                            <br>
+                            <p><b>COlor: </b>Lavnder</p>
+                            <p><b>Size: </b>M</p>
+                            <p><b>Quantitry: </b>1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    document.querySelector("form").addEventListener("submit",myfun);
+    function myfun(){
+        event.preventDefault();
+        
+       
+    }
+</script>

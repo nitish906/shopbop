@@ -1,0 +1,62 @@
+#container{
+    display: flex;
+    width: 0%;
+ }
+  #bag{
+    height:90px;
+    width:100px;
+    margin-left: 90px;
+}
+#title{
+    margin-top:-20px;
+   margin-left: 180px;
+}
+#st{
+    margin-top:-20px;
+   margin-left: 180px;
+   font-size: 10px; 
+}
+#bag+h3{
+    margin-top: -60px;
+}
+#box{
+    margin-left: 100px;
+}
+#model{
+    margin-left: 210px;
+    margin-top: -350px;
+}
+#price{
+    margin-left: 210px;
+}
+#color{
+    margin-left: 210px;
+}
+#size{
+    margin-left: 210px;
+}
+#quan{
+    margin-left: 210px;
+} 
+#switch{
+    margin-left: 210px;
+    cursor: pointer;
+    background-color: white;  
+    height:30px;
+}
+#order {
+    height: auto;
+    padding-bottom: -100px;
+    margin-left: 500px;
+}
+#btn{
+    cursor:pointer;
+    color:white;
+    background-color: rgb(212, 75, 12);
+    height: 50px;
+    width: 400px;
+    border: 1px solid rgb(212, 75, 12);;
+}
+hr{
+    color: rgb(179, 175, 175);
+}
