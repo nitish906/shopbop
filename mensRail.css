@@ -1,0 +1,231 @@
+.top{
+    height: 7vh;
+    width: 90%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.r1{
+    height: 40px;
+    width: max-content;
+    /* border: 1px solid teal; */
+   
+}
+.r2{
+    height: 40px;
+    width: max-content;
+    /* border: 1px solid teal; */
+   
+}
+.r3{
+    height: 40px;
+    width: max-content;
+    /* border: 1px solid teal; */
+  padding-top: -100px;
+}
+#log{
+    height: 20px;
+    width: 20px;
+    /* border: 1px solid red; */
+}
+#hed{
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+#hed>img{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    height: 50px;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(34, 188, 219); */
+    /* color: white; */
+    /* font-family: 'Courier New', Courier, monospace; */
+    border-radius: 10px;
+   
+}
+.navbar>div{
+    height: max-content;
+    width: max-content;
+    /* border: 1px solid teal; */
+    /* font-family: "GT-America-Standard","Helvetica Neue",Helvetica,sans-serif */
+    font-weight : 100;
+    margin-top: 20px;
+ } 
+.nav-item>a{
+    color: black;
+}
+#navLinks{
+    color: black;
+}
+ #ser{
+    height: 30px;
+    width: 30px;
+     /* border: 1px solid red;  */
+    margin-top: 0px;
+} 
+#ser>img{
+    height: 100%;
+    width: 100%;
+}
+.Mpa{
+    height: 50px;
+    width: 80%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 40px;
+}
+.Mpa>h1{
+    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+hr{
+    width: 100%;
+}
+#lef{
+    height: 200px;
+    width: 100px;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    line-height: 5px;
+}
+#lef>h4{
+    text-decoration: underline;
+}
+.rif{
+    height: 250px;
+    width: 70%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.rif>div{
+    /* border: 1px solid black; */
+    height: 250px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.rif>div>img{
+    height: 100%;
+    width: 200%;
+}
+.rif>div>h3{
+    color: red;
+    text-decoration: underline;
+}
+.rif>div>p{
+    /* border: 1px solid teal; */
+    margin-top: 30px;
+    font-size: 13px;
+    color: gray;
+}
+.fit{
+    height: 40px;
+    width: 40%;
+    /* border: 1px solid purple; */
+    border-radius: 20px;
+    margin: auto;
+    
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+   
+}
+#clear{
+    color: black;
+    text-decoration: underline;
+}
+.bigp{
+    height: auto;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+#cart{
+    /* border: 1px solid red; */
+    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    /* background-color:rgb(198, 195, 195); */
+
+
+}
+#cart>img{
+    height: 77%;
+    width: 100%;
+    
+}
+#cart>div{
+    /* border: 1px solid blue; */
+    height: 20%;
+    line-height: 1px;
+    text-align: center;
+}
+#like{
+    margin-right: -80%;
+    height: 20px;
+    width: 30px;
+    
+}
+#view{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#view>div{
+    /* border: 1px solid red; */
+    height: 40px;
+    font-size: 20px;
+}
+#gr{
+    color: gray;
+    text-decoration: none;
+}
+#und{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.bottom{
+    height: 200px;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.bottom>div{
+    height: 200px;
+    /* border: 1px solid red; */
+    line-height: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
