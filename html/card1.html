@@ -12,14 +12,14 @@
         <form id="form">
             <h1>One-Time Password</h1>
             <p>OTP</p>
-            <input id="otp" type="Integer.parseInt" placeholder="OTP">
+            <input id="otp" type="number" placeholder="OTP">
     
             <div id="some_div">
     
             </div>
             
-    
             <button onclick="getElementById('demo').innerHTML = Date()">Submit</button>
+           
     
            
         </form>
@@ -27,6 +27,22 @@
     </body>
 </body>
 </html>
-<script src="js/card1.js" >
-    
+<script>
+    var form = document.querySelector("form");
+    var user = JSON.parse(localStorage.getItem("user"))
+     form.addEventListener("submit" , function(event){
+         event.preventDefault()
+    var josn = JSON.stringify(user);
+         localStorage.setItem(user, josn)
+         console.log("user added")
+         alert("Payment Successful")
+         window.location.href ="../Cart.html"
+    })
+
+//      function showAlert() {
+//     var myText = "Order placed!!";
+//     alert (myText);
+//     // window.location.href= "Cart.html"
+        
+//   }
 </script>
