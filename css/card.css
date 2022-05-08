@@ -1,0 +1,47 @@
+form {
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 3% auto;
+    padding: 3%;
+    background-color: aqua;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  
+  
+  input,
+  select {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 2%;
+  }
+  #payment {
+    width:250px ;
+    
+    /* margin: auto; */
+    background-color:rgb(237, 238, 240);
+    color:black;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+    }
+  
+  #submit:hover{
+      background-color: black;
+      color: white;
+  }
+  #form,button{
+    width: 260px;
+    font-size:medium;
+    border-radius: 10px;
+  }
+
+ #user{
+  width: 260px;
+  font-size:medium;
+  border-radius: 10px
+
+  }
