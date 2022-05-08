@@ -14,7 +14,7 @@ if(email=="" || password==""){
 }
   for(var i = 0; i < userdata.length; i++){
       if(email == userdata[i].emai && password == userdata[i].password){
-          window.location.href= "#"
+          window.location.href= "index.html"
           return
       }
   }
