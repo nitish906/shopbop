@@ -14,6 +14,7 @@ Look out our website:- https://aquamarine-cuchufli-20996f.netlify.app</h4>
 
 <h3>Connect with authors</h3>
 <li>Nitish Kumar :- Homepage,Navbar & Footer page</li>
+<li>Nagaraju medida :- Cart page,Address page</li>
 <li>Pooja Kanade :- Product Page and its all functions </li>
 <li>Sahadev Roy:- signup and registerpage functionality</li>
 
